@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bl2"
+    >
+
+
+
+    <com.imangazaliev.circlemenu.CircleMenu
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/circleMenu"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <com.imangazaliev.circlemenu.CircleMenuButton
+            android:id="@+id/scan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:colorNormal="#2196F3"
+            app:colorPressed="#1E88E5"
+            app:icon="@mipmap/scan"
+            />
+
+        <com.imangazaliev.circlemenu.CircleMenuButton
+            android:id="@+id/replay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:colorNormal="#4CAF50"
+            app:colorPressed="#43A047"
+            app:icon="@mipmap/replay"/>
+
+        <com.imangazaliev.circlemenu.CircleMenuButton
+            android:id="@+id/history"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:colorNormal="#F44336"
+            app:colorPressed="#E53935"
+            app:icon="@mipmap/history"/>
+
+        <com.imangazaliev.circlemenu.CircleMenuButton
+            android:id="@+id/feedback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:colorNormal="#9C27B0"
+            app:colorPressed="#8E24AA"
+            app:icon="@mipmap/feed"/>
+        <com.imangazaliev.circlemenu.CircleMenuButton
+            android:id="@+id/about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:colorNormal="#FF9800"
+            app:colorPressed="#FB8C00"
+            app:icon="@mipmap/user"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </com.imangazaliev.circlemenu.CircleMenu>
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Scanme</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_segment_scan">SegmentScanActivity</string>
+    <string name="raw_title">Raw text</string>
+    <string name="raw_msg">Position text in this frame</string>
+    <string name="title_activity_scan_me_ranguski">ScanMeRanguski</string>
+    <string name="Loading">Loading..</string>
+    <string name="Question">Please Enter FeedBack?</string>
+    <string name="Send">Deleet History</string>
+    <string name="Done">Done</string>
+    <string name="Loading_Complete">Successfully Deleted</string>
+    <string name="txtCredits"><a href="http://hklbatch.weebly.com/">www.scannermath.com</a></string>
+    <string name="txt"><a href="https://microblink.com/en">www.microblink.com</a></string>
+
+    <style name="wrapping_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">@dimen/micro_padding</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/bl2</item>
+    </style>
+
+    <string name="title_activity_history">History</string>
+    <string name="text1">About Us</string>
+
+    <string name="title_activity_main1">MainActivity1</string>
+    <string name="title_activity_message1">MessageActivity1</string>
+    <string name="title_activity_about1">About1</string>
+    <string name="title_activity_scan">ScanActivity</string>
+</resources>
